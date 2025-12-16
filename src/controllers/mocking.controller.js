@@ -6,6 +6,7 @@ import generatePetsMocks from '../mocks/pets.mocks.js';
 import generateUsersMocks from '../mocks/users.mocks.js';
 import { usersService, petsService } from '../services/index.js';
 
+// valida que n campos pasados sean numéricos, enteros y mayores a 0
 const validatePositiveInteger = (...values) =>
     values.every(v => Number.isInteger(v) && v > 0);
 
@@ -64,7 +65,7 @@ class mocksController {
 
         } catch (err) {
             return res.status(500).json({
-                error: 'Error interno en el servidor'
+                error: 'Internal server error. '
             });
         }
     };

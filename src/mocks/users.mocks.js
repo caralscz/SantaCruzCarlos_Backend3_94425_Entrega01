@@ -18,7 +18,7 @@ import { createHash } from "../utils/index.js"; // para encriptar la password
         }
         return users
     } catch (err) {
-        console.log("Error al crear mosck de users", err.message)
+        console.log("Error creando mosck de users", err.message)
     }
 }
 
