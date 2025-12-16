@@ -16,11 +16,16 @@ import mocksRouter from './routes/mocks.router.js';
 import envs from './config/envs.js';
 import conectarDB  from './config/db.js';
 
+import path from 'path';  // para los archivos estáticos
 const app = express();
 
 app.use(express.json());
 app.use(cookieParser());
 
+// archivos estáticos
+app.use(express.static(path.join(process.cwd(),'src', 'public')));
+
+// endpoints
 app.use('/api/users',usersRouter);
 app.use('/api/pets',petsRouter);
 app.use('/api/adoptions',adoptionsRouter);

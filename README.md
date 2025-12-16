@@ -12,7 +12,7 @@
 
 ## Objetivo de la entrega
 
-Partiendo de un proyecto que que dieron en clase: 
+Partiendo de un proyecto dado en clase: 
 https://github.com/CoderContenidos/RecursosBackend-Adoptme
 
 Crear un router llamado mocks.router.js que funcione bajo la ruta base /api/mocks.
@@ -153,7 +153,7 @@ npm install
 # npm start
 ```
 
-5. Luego podrá acceder a la aplicación desde cualquier navegador en **localhost** desde
+5. Luego podrá acceder a la aplicación desde cualquier navegador en **localhost** 
 
 ---
 
