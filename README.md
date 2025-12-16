@@ -81,6 +81,7 @@ SantaCruz-Comision94425-entrega01/
     ¦
     +-- public                   # Archivos públicos estáticos
     ¦   +-- img                  # Imágenes públicas
+    ¦   +-- index.html           # Pagina estática inicial
     ¦
     +-- repository               # Capa de abstracción entre servicios y DAO
     ¦   +-- AdoptionRepository.js # Repositorio de adopciones
@@ -112,7 +113,7 @@ SantaCruz-Comision94425-entrega01/
 
   - GET /api/users         -lista los usuarios
 
-### Productos (`/api/pets`)
+### Pets (`/api/pets`)
 
   - GET /api/pets - Lee todas las mascotas (Pets) cargadas
 
